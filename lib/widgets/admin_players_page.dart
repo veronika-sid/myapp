@@ -62,22 +62,23 @@ class _AdminPageOfPlayersState extends State<AdminPageOfPlayers> {
                                 style: TextStyle(
                                     fontWeight: FontWeight.bold, fontSize: 18),
                               ),
-                              Container(
-                                  alignment: Alignment.center,
-                                  width: screenWidth * 0.6,
-                                  height: screenHeight * 0.05,
-                                  child: ListView.builder(
-                                      shrinkWrap: true,
-                                      itemCount: stars,
-                                      scrollDirection: Axis.horizontal,
-                                      itemBuilder:
-                                          (BuildContext context, int index) {
-                                        return const Icon(
-                                          MafiaIcon.stars,
-                                          size: 38,
-                                          color: MafiaColor.red,
-                                        );
-                                      }))
+                              if (stars > 0)
+                                Container(
+                                    alignment: Alignment.center,
+                                    width: screenWidth * 0.6,
+                                    height: screenHeight * 0.05,
+                                    child: ListView.builder(
+                                        shrinkWrap: true,
+                                        itemCount: stars,
+                                        scrollDirection: Axis.horizontal,
+                                        itemBuilder:
+                                            (BuildContext context, int index) {
+                                          return const Icon(
+                                            MafiaIcon.stars,
+                                            size: 38,
+                                            color: MafiaColor.red,
+                                          );
+                                        }))
                             ],
                           ),
                         ),
