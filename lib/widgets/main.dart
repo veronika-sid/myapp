@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '/pages/add_player.dart';
-import '/pages/admin_page.dart';
-import '/pages/login.dart';
-import '/pages/main_page.dart';
+import '../pages/add_player.dart';
+import '../pages/admin_page.dart';
+import '../pages/login.dart';
+import '../pages/main_page.dart';
 
 void main() {
   runApp(MyApp());

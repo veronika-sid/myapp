@@ -1,9 +1,9 @@
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
-import '/pages/admin_page.dart';
+import '../pages/admin_page.dart';
 
-import '/resources/mafia_strings.dart';
+import '../resources/mafia_strings.dart';
 
 // ignore: use_key_in_widget_constructors
 class LoginForm extends StatefulWidget {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '/resources/mafia_colors.dart';
+import '../resources/mafia_colors.dart';
 
 // ignore: use_key_in_widget_constructors
 class PageOfClubMembers extends StatefulWidget {

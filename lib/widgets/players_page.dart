@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '/resources/mafia_colors.dart';
-import '/resources/mafia_icons.dart';
+import '../resources/mafia_colors.dart';
+import '../resources/mafia_icons.dart';
 
 // ignore: use_key_in_widget_constructors
 class PageOfPlayers extends StatelessWidget {

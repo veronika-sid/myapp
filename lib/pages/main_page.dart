@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import '/resources/mafia_colors.dart';
-import '/resources/mafia_icons.dart';
-import '/resources/mafia_strings.dart';
-import '/widgets/club_members_page.dart';
-import '/widgets/club_profile_page.dart';
-import '/widgets/players_page.dart';
-import '/widgets/rules_page.dart';
+
+import '../resources/mafia_colors.dart';
+import '../resources/mafia_icons.dart';
+import '../resources/mafia_strings.dart';
+import '../widgets/club_members_page.dart';
+import '../widgets/club_profile_page.dart';
+import '../widgets/players_page.dart';
+import '../widgets/rules_page.dart';
 
 
 // ignore: must_be_immutable, use_key_in_widget_constructors

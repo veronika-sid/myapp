@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '/pages/login.dart';
-import '/resources/mafia_colors.dart';
-import '/resources/mafia_strings.dart';
+import '../pages/login.dart';
+import '../resources/mafia_colors.dart';
+import '../resources/mafia_strings.dart';
 
 // ignore: use_key_in_widget_constructors
 class PageOfClubProfile extends StatelessWidget {

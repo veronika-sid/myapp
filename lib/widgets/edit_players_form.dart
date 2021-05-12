@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '/resources/mafia_colors.dart';
-import '/resources/mafia_icons.dart';
-import '/resources/mafia_strings.dart';
+import '../resources/mafia_colors.dart';
+import '../resources/mafia_icons.dart';
+import '../resources/mafia_strings.dart';
 
 // ignore: use_key_in_widget_constructors, must_be_immutable
 class EditPlayersForm extends StatefulWidget {
